@@ -1,0 +1,58 @@
+body {
+    font-family: 'Georgia';
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+h1 {
+    margin-left: 70px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h4 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+}
+
+img.preview {
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+}
+
+.code {
+    background-color: #EDEC90;
+    font-family: 'Courier';
+    padding: 5px;
+    width: 45%;
+}
+
+form {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+}

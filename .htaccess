@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
+
+<FilesMatch "autoloader\.php|router\.php|composer\.json|composer\.lock|settings\.ini|helpers\.php">
+  Order deny,allow
+  Deny from all
+</FilesMatch>
